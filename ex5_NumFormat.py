@@ -1,4 +1,3 @@
-
 # it is aslo possible to format numbers
 print '%d' % 42
 print '{:d}'.format(42)
