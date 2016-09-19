@@ -5,6 +5,7 @@ print '{:{align}{length}}'.format('test', align='^', length='10')
 # prametrized precision
 print '%.*s = %.*f' % (3, 'Gibberish', 3, 2.7182)
 print '{:.{prec}} = {:.{prec}}'.format('Gibberish', 2.7182, prec=3)
+
 # the precision for floating point numbers limits the number of positions after
 # the decimal point.
 print '{:.{prec}} = {:.{prec}f}'.format('Gibberish', 2.7182, prec=3)

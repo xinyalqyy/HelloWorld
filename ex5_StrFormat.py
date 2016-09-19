@@ -1,3 +1,4 @@
+
 print '%s %s' % ('one','two')
 print '{} {}'.format('one','two')
 print '{} {}'.format(1,2)
